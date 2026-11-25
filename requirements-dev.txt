@@ -1,0 +1,8 @@
+# Dev/test dependencies for Veritas Registry.
+# genlayer-py is the client SDK (import name genlayer_py); the contract
+# itself runs inside GenVM and needs no local install.
+genlayer-py==0.19.1
+genvm-linter==0.11.0
+genlayer-test==0.30.1
+# run_nondet_unsafe pickles closures via cloudpickle in direct mode.
+cloudpickle==3.1.3

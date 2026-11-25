@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.pytest_cache/
+*.egg-info/
+
+# GenLayer CLI / test accounts — NEVER commit keys or passwords
+.test-account/
+*.keystore.json
+.gltest-cache/
+
+# OS
+.DS_Store
+venv*/
